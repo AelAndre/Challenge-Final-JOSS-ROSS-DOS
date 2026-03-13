@@ -1,0 +1,12 @@
+controller_node:
+  ros__parameters:
+    kp: 1.5
+    ki: 0.1
+    kd: 0.05
+    sample_time: 0.02
+
+set_point_node:
+  ros__parameters:
+    amplitude: 2.0
+    omega: 1.0
+    wave_type: "sine"
